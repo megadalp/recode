@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="405d4316-9418-4d98-bbcb-5960689bb495" name="Changes" comment="recode ready; try to read from GUI text box - not understand :(" />
+    <list default="true" id="405d4316-9418-4d98-bbcb-5960689bb495" name="Changes" comment="recode ready; try to read from GUI text box - not understand :(">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "megadalp"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/megadalp/recode.git",
+    "accountId": "f27f0d7c-7f00-4991-95b7-50f6c5e2d052"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -61,7 +76,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.uinput">
+  <component name="RunManager" selected="Go Build.recode PROD">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="recode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -97,7 +112,7 @@
     <configuration name="recode PROD" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="recode" />
       <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-ldflags &quot;-w -s&quot; -o /usr/local/bin/recode" />
+      <go_parameters value="-ldflags &quot;-w -s&quot; -o $PROJECT_DIR$/recode" />
       <kind value="FILE" />
       <package value="recode" />
       <directory value="$PROJECT_DIR$" />
@@ -174,7 +189,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/main.go</url>
-          <line>189</line>
+          <line>204</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
