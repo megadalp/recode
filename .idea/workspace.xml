@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="405d4316-9418-4d98-bbcb-5960689bb495" name="Changes" comment="recode ready; try to read from GUI text box - not understand :(" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///usr/lib64/go/1.23" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2rfAIRVhOxzGqmfWxeWyG7xczXt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Go Build.keybd_event.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.keypress.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.recode PROD.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.recode.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.uinput.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dalp/go/src/recode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="GoApplicationRunConfiguration" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.uinput">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="recode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="recode" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="keybd_event" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="recode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-o $PROJECT_DIR$/../../bin/keybd_event" />
+      <kind value="FILE" />
+      <package value="recode" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/keybd_event.go" />
+      <pty_enabled value="true" />
+      <input_file value="$PROJECT_DIR$/test.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="keypress" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="recode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-o $PROJECT_DIR$/../../bin/keypress" />
+      <kind value="FILE" />
+      <package value="recode" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/keypress.go" />
+      <input_file value="$PROJECT_DIR$/test.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="recode PROD" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="recode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-ldflags &quot;-w -s&quot; -o /usr/local/bin/recode" />
+      <kind value="FILE" />
+      <package value="recode" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <option name="run" value="false" />
+      <redirect_input value="true" />
+      <pty_enabled value="true" />
+      <input_file value="$PROJECT_DIR$/test.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="recode" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="recode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-o $PROJECT_DIR$/../../bin/recode" />
+      <kind value="FILE" />
+      <package value="recode" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <redirect_input value="true" />
+      <input_file value="$PROJECT_DIR$/test.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="uinput" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="recode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-o $PROJECT_DIR$/../../bin/uinput" />
+      <kind value="FILE" />
+      <package value="recode" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/uinput.go" />
+      <input_file value="$PROJECT_DIR$/test.txt" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.recode" />
+      <item itemvalue="Go Build.keybd_event" />
+      <item itemvalue="Go Build.keypress" />
+      <item itemvalue="Go Build.uinput" />
+      <item itemvalue="Go Build.recode PROD" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-d297c17c1fbd-b87a2f8923ed-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-243.21565.208" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-GO-243.21565.208" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="recode ready; try to read from GUI text box - not understand :(" />
+    <option name="LAST_COMMIT_MESSAGE" value="recode ready; try to read from GUI text box - not understand :(" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/main.go</url>
+          <line>189</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/uinput.go</url>
+          <line>22</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
